@@ -7,10 +7,10 @@ function Header(){
 
         <header>
             <nav>
-                <a href ="#">Home</a>
-                <a href ="#">About</a>
-                <a href ="#">Services</a>
-                <a href ="#">Contact</a>
+                <a href ="www.google.com">Home</a>
+                <a href ="www.google.com">About</a>
+                <a href ="www.google.com">Services</a>
+                <a href ="www.google.com">Contact</a>
             </nav>
         </header>
     )

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer'
-import Header from './components/Header'
+// import Header from './components/Header'
 import MainContent from './components/MainContent'
 
 // function App() {
@@ -32,12 +32,12 @@ function App(){
   return(
  <div> 
 
-    < Header />
+    {/* < Header />
 
     < MainContent />
 
    
-    <Footer/>
+    <Footer/> */}
 
     <MainContent/>
     <Footer/>
