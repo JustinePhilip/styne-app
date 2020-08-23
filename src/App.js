@@ -6,25 +6,25 @@ function App(){
   return(
  <div className="contact"> 
       <Contact name="Emele Emeka"
-              imgUrl="house.png"
+              imgUrl={house}
               email="EmeleE@gmail.com"
               phone="07054234509"
       />
 
     <Contact name="Eze Peace"
-              imgUrl="house.png"
+              imgUrl={house}
               email="Ezepeace90@gmail.com"
               phone="08054234509"
     />
     
     <Contact name="Kalu Uche"
-              imgUrl="house.png"
+              imgUrl={house}
               email="kaluche@gmail.com"
               phone="09054234509"
     />
 
     <Contact name="Agwu Uka"
-              imgUrl="house.png"
+              imgUrl={house}
               email="Agwu4real@gmail.com"
               phone="08154234509"
     />
