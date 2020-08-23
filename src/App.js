@@ -1,46 +1,33 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-import Footer from './components/Footer'
-// import Header from './components/Header'
-import MainContent from './components/MainContent'
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
+import Contact from './components/Contact';
+import house from './house.png';
 
 function App(){
-
   return(
- <div> 
+ <div className="contact"> 
+      <Contact name="Emele Emeka"
+              imgUrl="house.png"
+              email="EmeleE@gmail.com"
+              phone="07054234509"
+      />
 
-    {/* < Header />
+    <Contact name="Eze Peace"
+              imgUrl="house.png"
+              email="Ezepeace90@gmail.com"
+              phone="08054234509"
+    />
+    
+    <Contact name="Kalu Uche"
+              imgUrl="house.png"
+              email="kaluche@gmail.com"
+              phone="09054234509"
+    />
 
-    < MainContent />
-
-   
-    <Footer/> */}
-
-    <MainContent/>
-    <Footer/>
+    <Contact name="Agwu Uka"
+              imgUrl="house.png"
+              email="Agwu4real@gmail.com"
+              phone="08154234509"
+    />
   </div>
   )
 }

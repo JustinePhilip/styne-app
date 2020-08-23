@@ -1,4 +1,6 @@
 import React from 'react'
+import TodoItem from './TodoItem'
+import TodoPlan from './TodoPlan'
 
 
 function MainContent(){
@@ -7,18 +9,19 @@ function MainContent(){
 
        <main className = "main">
             <p className="here">here is a paragraph</p>
+        
+        <div className = "todo-list">
+          < TodoItem />
+          < TodoItem />
+          < TodoItem />
+          < TodoItem />
+          <TodoItem/>
 
-            <input type ="checkbox"/>
-            <p>text here</p>
+          <TodoPlan/>
+        </div>
 
-            <input type ="checkbox"/>
-            <p>text here</p>
+          
 
-            <input type ="checkbox"/>
-            <p>text here with</p>
-
-            <input type ="checkbox"/>
-            <p>text here</p>
        </main>
 
     )
